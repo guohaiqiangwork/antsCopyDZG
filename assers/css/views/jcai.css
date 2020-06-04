@@ -1,0 +1,92 @@
+
+
+
+#heardD {
+	background-color: #FFFFFF;
+	height: 1rem;
+	width: 100%;
+	position: fixed;
+}
+
+.mui-slider .mui-segmented-control.mui-segmented-control-inverted .mui-control-item {
+	margin-top: 0.1rem;
+	font-size: 0.26rem;
+	color: #999999;
+}
+
+.mui-segmented-control.mui-scroll-wrapper .mui-control-item {
+	padding-left: .2rem;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+	color: #333333;
+	font-weight: bold;
+	font-size: .3rem;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted {
+	width: 100%;
+	height: 3.3rem;
+}
+
+.mui-segmented-control.mui-scroll-wrapper .mui-scroll {
+	height: 3.3rem;
+	 width: 544px !important;
+}
+
+.mui-slider .mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active div {
+	height: .07rem;
+	background-color: #EA3E31;
+	border-radius: .2rem;
+	margin-top: .25rem;
+	width: 90%;
+	margin-left: 5%;
+}
+
+@keyframes animate {
+	from {
+		width: 0px;
+		-left: 0.24rem;
+	}
+
+	to {
+		width: 0.8rem;
+		-left: 0.24rem;
+	}
+}
+.mui-slider .mui-segmented-control.mui-segmented-control-inverted .mui-control-item div {
+	height: 0.1rem;
+	position: relative;
+	bottom: 0.38rem;
+	border-radius: .4rem;
+	margin-top: .1rem;
+}
+.header_tab{
+	width: 7.5rem;
+	background-color: #FFFFFF;
+	height: .86rem;
+	z-index: 999;
+	position: fixed;
+	top: 5.8rem;
+	padding-top: .2rem;
+}
+
+ .avue {
+	height: .06rem;
+	width: 1rem;
+	border-radius: .1rem;
+	background: linear-gradient(to right, #FF342D, #FF5882) !important;
+	margin-left: 38%;
+}
+.avue_font{
+	color: #333333 !important;
+}
+
+.tab_swich{
+	color: #CCCCCC;
+	width: 50%;
+	font-size: .28rem;
+	text-align: center;
+}
+
+
